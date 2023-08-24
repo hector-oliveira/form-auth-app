@@ -7,7 +7,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme} >
       <SignUp />
-      <StatusBar backgroundColor={theme.colors.status_bar} />
+      <StatusBar backgroundColor={theme.colors.light_shape_color[500]} />
     </ThemeProvider>
   );
 }

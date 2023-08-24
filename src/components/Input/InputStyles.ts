@@ -17,7 +17,7 @@ export const IconContainer = styled.View<Props>`
     justify-content: center;
     align-items: center;
     margin-right: 2px;
-    background-color: ${ ({ theme }) => theme.colors.color_shape };
+    background-color: ${ ({ theme }) => theme.colors.light[900] };
     `}
     
     ${( { isFocused }: Props ) => isFocused && css`
@@ -29,8 +29,8 @@ export const IconContainer = styled.View<Props>`
 export const InputText = styled(TextInput)<Props>`
   ${() => css`
     flex: 1;
-    background-color: ${ ({ theme }) => theme.colors.color_shape };
-    color: ${ ({ theme }) => theme.colors.color_title_800 };
+    background-color: ${ ({ theme }) => theme.colors.light[900] };
+    color: ${ ({ theme }) => theme.colors.custom[800] };
     padding: 0 23px;
   `}
 
